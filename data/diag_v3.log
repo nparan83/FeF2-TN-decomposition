@@ -1,0 +1,96 @@
+== v3_U3.0
+  configs: 14, outputs: 14
+  # target = lowest-energy c111_ud (m=3); try order: 3 5 1 2 4
+  sub 0 0.8020 0.0000 0.0000 -0.0000 0.5980
+  sub 1 -0.8020 0.0000 0.0000 -0.0000 0.5980
+  # m=3  E-Emin =     0.00 meV/Fe  mag 3.751  target  vec 0.80 0.00 0.00 -0.00 0.60
+  # m=5  E-Emin =     0.00 meV/Fe  mag 3.751  target  vec 0.80 0.00 0.00 -0.00 0.60
+  # m=1  E-Emin =   147.38 meV/Fe  mag 3.756  other  vec 0.00 0.00 -0.00 1.00 -0.00
+  # m=2  E-Emin =   183.10 meV/Fe  mag 3.760  other  vec 0.00 -0.71 -0.71 -0.00 -0.00
+  # m=4  E-Emin =   846.33 meV/Fe  mag 3.798  other  vec -0.00 0.71 -0.71 0.00 0.00
+  label sets over configs: {'A': 14}
+  c111_uu        conv=1  E/Fe-E(c111_ud)=29.86  labels=AA  TS=0.0
+  c111_ud        conv=1  E/Fe-E(c111_ud)=0.00  labels=AA  TS=0.0
+  c112_uuud      conv=1  E/Fe-E(c111_ud)=14.37  labels=AAAA  TS=0.0
+  c112_uudd      conv=1  E/Fe-E(c111_ud)=13.80  labels=AAAA  TS=0.0
+  c211_uuud      conv=1  E/Fe-E(c111_ud)=14.57  labels=AAAA  TS=0.0
+  c211_uudd      conv=1  E/Fe-E(c111_ud)=14.22  labels=AAAA  TS=0.0
+== v3_U4.0
+  configs: 14, outputs: 12
+  # target = lowest-energy c111_ud (m=2); try order: 2 1 3 4 5
+  sub 0 0.8030 0.0000 0.0000 -0.0000 0.5970
+  sub 1 -0.8030 0.0000 0.0000 -0.0000 0.5970
+  # m=2  E-Emin =     0.00 meV/Fe  mag 3.772  target  vec 0.80 0.00 0.00 -0.00 0.60
+  # m=1  E-Emin =   140.02 meV/Fe  mag 3.777  other  vec 0.00 0.00 -0.00 1.00 -0.00
+  # m=3  E-Emin =   174.91 meV/Fe  mag 3.781  other  vec 0.00 -0.71 -0.71 -0.00 -0.00
+  # m=4  E-Emin =   823.84 meV/Fe  mag 3.817  other  vec -0.00 0.71 -0.71 0.00 0.00
+  # m=5  E-Emin =  1208.78 meV/Fe  mag 3.838  other  vec -0.60 0.00 0.00 -0.00 0.80
+  label sets over configs: {'A': 12}
+  c111_uu        conv=1  E/Fe-E(c111_ud)=24.14  labels=AA  TS=-0.0
+  c111_ud        conv=1  E/Fe-E(c111_ud)=0.00  labels=AA  TS=0.0
+  c112_uudd      conv=1  E/Fe-E(c111_ud)=11.04  labels=AAAA  TS=0.0
+  c211_uuud      conv=1  E/Fe-E(c111_ud)=11.78  labels=AAAA  TS=0.0
+  c211_uudd      conv=1  E/Fe-E(c111_ud)=11.50  labels=AAAA  TS=0.0
+== v3_U5.0
+  configs: 14, outputs: 7
+  # target = lowest-energy c111_ud (m=1); try order: 1 2 3 4 5
+  sub 0 0.8030 0.0000 0.0000 -0.0000 0.5960
+  sub 1 -0.8030 0.0000 0.0000 -0.0000 0.5960
+  # m=1  E-Emin =     0.00 meV/Fe  mag 3.790  target  vec 0.80 0.00 0.00 -0.00 0.60
+  # m=2  E-Emin =   133.33 meV/Fe  mag 3.795  other  vec 0.00 0.00 -0.00 1.00 -0.00
+  # m=3  E-Emin =   167.56 meV/Fe  mag 3.799  other  vec 0.00 -0.71 -0.71 -0.00 -0.00
+  # m=4  E-Emin =   802.25 meV/Fe  mag 3.833  other  vec -0.00 0.71 -0.71 0.00 0.00
+  # m=5  E-Emin =  1185.09 meV/Fe  mag 3.854  other  vec -0.60 0.00 0.00 -0.00 0.80
+  label sets over configs: {'A': 7}
+  c111_uu        conv=1  E/Fe-E(c111_ud)=19.56  labels=AA  TS=-0.0
+  c111_ud        conv=1  E/Fe-E(c111_ud)=0.00  labels=AA  TS=0.0
+  c112_uudd      conv=1  E/Fe-E(c111_ud)=8.87  labels=AAAA  TS=0.0
+  c211_uudd      conv=1  E/Fe-E(c111_ud)=9.32  labels=AAAA  TS=0.0
+== v3_U6.0
+  configs: 14, outputs: 6
+  # target = lowest-energy c111_ud (m=1); try order: 1 2 3 4 5
+  sub 0 0.8040 0.0000 0.0000 -0.0000 0.5950
+  sub 1 -0.8040 0.0000 0.0000 -0.0000 0.5950
+  # m=1  E-Emin =     0.00 meV/Fe  mag 3.806  target  vec 0.80 0.00 0.00 -0.00 0.59
+  # m=2  E-Emin =   127.25 meV/Fe  mag 3.811  other  vec 0.00 0.00 -0.00 1.00 -0.00
+  # m=3  E-Emin =   160.91 meV/Fe  mag 3.814  other  vec 0.00 -0.71 -0.71 -0.00 -0.00
+  # m=4  E-Emin =   781.68 meV/Fe  mag 3.847  other  vec -0.00 0.71 -0.71 0.00 0.00
+  # m=5  E-Emin =  1160.58 meV/Fe  mag 3.868  other  vec -0.60 0.00 0.00 -0.00 0.80
+  label sets over configs: {'A': 6}
+  c111_uu        conv=1  E/Fe-E(c111_ud)=15.86  labels=AA  TS=-0.0
+  c111_ud        conv=1  E/Fe-E(c111_ud)=0.00  labels=AA  TS=0.0
+  c112_uudd      conv=1  E/Fe-E(c111_ud)=7.14  labels=AAAA  TS=0.0
+  c211_uuud      conv=1  E/Fe-E(c111_ud)=7.75  labels=AAAA  TS=0.0
+  c211_uudd      conv=1  E/Fe-E(c111_ud)=7.56  labels=AAAA  TS=0.0
+== v3_U7.0
+  configs: 14, outputs: 9
+  # target = lowest-energy c111_ud (m=1); try order: 1 2 3 4 5
+  sub 0 0.8050 0.0000 0.0000 -0.0000 0.5940
+  sub 1 -0.8050 0.0000 0.0000 -0.0000 0.5940
+  # m=1  E-Emin =     0.00 meV/Fe  mag 3.821  target  vec 0.81 0.00 0.00 -0.00 0.59
+  # m=2  E-Emin =   121.71 meV/Fe  mag 3.826  other  vec 0.00 0.00 -0.00 1.00 -0.00
+  # m=3  E-Emin =   154.87 meV/Fe  mag 3.828  other  vec 0.00 -0.71 -0.71 -0.00 -0.00
+  # m=4  E-Emin =   762.17 meV/Fe  mag 3.860  other  vec -0.00 0.71 -0.71 0.00 0.00
+  # m=5  E-Emin =  1136.29 meV/Fe  mag 3.880  other  vec -0.60 0.00 0.00 -0.00 0.80
+  label sets over configs: {'A': 9}
+  c111_uu        conv=1  E/Fe-E(c111_ud)=12.84  labels=AA  TS=0.0
+  c111_ud        conv=1  E/Fe-E(c111_ud)=0.00  labels=AA  TS=0.0
+  c112_uudd      conv=1  E/Fe-E(c111_ud)=5.74  labels=AAAA  TS=0.0
+  c211_uudd      conv=1  E/Fe-E(c111_ud)=6.12  labels=AAAA  TS=0.0
+== S0
+  chk212_afm     conv=1  labels=BBBBBBBB
+  chk212_fm      conv=1  labels=CCCCCCCC
+  cv_e110_afm    conv=1  labels=BB
+  cv_e110_fm     conv=1  labels=CC
+  cv_e70_afm     conv=1  labels=BB
+  cv_e70_fm      conv=1  labels=CC
+  cv_e90_afm     conv=1  labels=BB
+  cv_e90_fm      conv=1  labels=CC
+  cv_k8812_afm   conv=1  labels=BB
+  cv_k8812_fm    conv=1  labels=CC
+  cv_orb4_afm    conv=1  labels=CC
+  relax_afm      conv=1  labels=BB
+== orbital classes (corner-site frame, order z2 xz yz x2-y2 xy)
+  A  [ 0.81  0.    0.   -0.    0.59]
+  B  [-0.66  0.    0.    0.    0.75]
+  C  [-0.   -0.71  0.71 -0.   -0.  ]

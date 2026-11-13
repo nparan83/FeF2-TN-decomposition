@@ -1,0 +1,11 @@
+# window centres (K) for the v6 U-scan rerun, from the v6 re-analysis of fef2_mcfine.dat (06.11.2026)
+dft_U3.0_B14 bc 149.45
+dft_U3.0_B14 heis 96.3
+dft_U4.0_B14 bc 122.05
+dft_U4.0_B14 heis 79.5
+dft_U5.0_B14 bc 100.45
+dft_U5.0_B14 heis 65.7
+dft_U6.0_B14 bc 82.85
+dft_U6.0_B14 heis 54.9
+dft_U7.0_B14 bc 68.5
+dft_U7.0_B14 heis 46.2

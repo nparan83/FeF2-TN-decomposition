@@ -1,0 +1,66 @@
+U=3.0 B_J1-J4+J7  N=14  rms=0.0079 max=0.0163 meV/Fe
+   J1*S^2 =    0.2143 +- 0.0019 meV   J1(S=2) =   0.0536 meV
+   J2*S^2 =    3.7316 +- 0.0007 meV   J2(S=2) =   0.9329 meV
+   J3*S^2 =   -0.0050 +- 0.0022 meV   J3(S=2) =  -0.0012 meV
+   J4*S^2 =    0.0866 +- 0.0008 meV   J4(S=2) =   0.0217 meV
+   J7*S^2 =    0.0905 +- 0.0013 meV   J7(S=2) =   0.0226 meV
+U=3.0 A_J1-J4  N=14  rms=0.1000 max=0.2256 meV/Fe
+   J1*S^2 =    0.3167 +- 0.0236 meV   J1(S=2) =   0.0792 meV
+   J2*S^2 =    3.7332 +- 0.0180 meV   J2(S=2) =   0.9333 meV
+   J3*S^2 =    0.0922 +- 0.0215 meV   J3(S=2) =   0.0230 meV
+   J4*S^2 =    0.0524 +- 0.0093 meV   J4(S=2) =   0.0131 meV
+U=4.0 B_J1-J4+J7  N=12  rms=0.0042 max=0.0087 meV/Fe
+   J1*S^2 =    0.2352 +- 0.0012 meV   J1(S=2) =   0.0588 meV
+   J2*S^2 =    3.0167 +- 0.0006 meV   J2(S=2) =   0.7542 meV
+   J3*S^2 =   -0.0020 +- 0.0007 meV   J3(S=2) =  -0.0005 meV
+   J4*S^2 =    0.0702 +- 0.0004 meV   J4(S=2) =   0.0175 meV
+   J7*S^2 =    0.0724 +- 0.0007 meV   J7(S=2) =   0.0181 meV
+U=4.0 A_J1-J4  N=12  rms=0.0821 max=0.1814 meV/Fe
+   J1*S^2 =    0.3207 +- 0.0220 meV   J1(S=2) =   0.0802 meV
+   J2*S^2 =    3.0179 +- 0.0186 meV   J2(S=2) =   0.7545 meV
+   J3*S^2 =    0.0774 +- 0.0206 meV   J3(S=2) =   0.0194 meV
+   J4*S^2 =    0.0398 +- 0.0082 meV   J4(S=2) =   0.0099 meV
+U=5.0 B_J1-J4+J7  N=8  rms=0.0012 max=0.0025 meV/Fe
+   J1*S^2 =    0.2264 +- 0.0009 meV   J1(S=2) =   0.0566 meV
+   J2*S^2 =    2.4455 +- 0.0010 meV   J2(S=2) =   0.6114 meV
+   J3*S^2 =    0.0002 +- 0.0006 meV   J3(S=2) =   0.0001 meV
+   J4*S^2 =    0.0573 +- 0.0004 meV   J4(S=2) =   0.0143 meV
+   J7*S^2 =    0.0579 +- 0.0004 meV   J7(S=2) =   0.0145 meV
+U=5.0 A_J1-J4  N=8  rms=0.0702 max=0.1700 meV/Fe
+   J1*S^2 =    0.3080 +- 0.0364 meV   J1(S=2) =   0.0770 meV
+   J2*S^2 =    2.4455 +- 0.0289 meV   J2(S=2) =   0.6114 meV
+   J3*S^2 =    0.0620 +- 0.0270 meV   J3(S=2) =   0.0155 meV
+   J4*S^2 =    0.0323 +- 0.0102 meV   J4(S=2) =   0.0081 meV
+U=6.0 B_J1-J4+J7: rank deficient
+U=6.0 A_J1-J4  N=7  rms=0.0005 max=0.0010 meV/Fe
+   J1*S^2 =    0.2071 +- 0.0005 meV   J1(S=2) =   0.0518 meV
+   J2*S^2 =    1.9830 +- 0.0001 meV   J2(S=2) =   0.4957 meV
+   J3*S^2 =    0.0920 +- 0.0004 meV   J3(S=2) =   0.0230 meV
+   J4*S^2 =    0.0472 +- 0.0002 meV   J4(S=2) =   0.0118 meV
+U=7.0 B_J1-J4+J7  N=10  rms=0.0027 max=0.0064 meV/Fe
+   J1*S^2 =    0.1862 +- 0.0015 meV   J1(S=2) =   0.0465 meV
+   J2*S^2 =    1.6052 +- 0.0005 meV   J2(S=2) =   0.4013 meV
+   J3*S^2 =    0.0035 +- 0.0030 meV   J3(S=2) =   0.0009 meV
+   J4*S^2 =    0.0383 +- 0.0005 meV   J4(S=2) =   0.0096 meV
+   J7*S^2 =    0.0343 +- 0.0016 meV   J7(S=2) =   0.0086 meV
+U=7.0 A_J1-J4  N=10  rms=0.0398 max=0.0975 meV/Fe
+   J1*S^2 =    0.2301 +- 0.0156 meV   J1(S=2) =   0.0575 meV
+   J2*S^2 =    1.6051 +- 0.0118 meV   J2(S=2) =   0.4013 meV
+   J3*S^2 =    0.0355 +- 0.0138 meV   J3(S=2) =   0.0089 meV
+   J4*S^2 =    0.0261 +- 0.0048 meV   J4(S=2) =   0.0065 meV
+QC: 70 outputs, 19 flagged (see fef2_qc.dat)
+   4.0 c112_uuud MISSING
+   4.0 c212_uuuddudd MISSING
+   5.0 c112_uuud MISSING
+   5.0 c211_uuud MISSING
+   5.0 c221_uuuuuuud MISSING
+   5.0 c212_uuududdu MISSING
+   5.0 c212_uuuddudd MISSING
+   5.0 c221_uuuuuddd MISSING
+   6.0 c112_uuud MISSING
+   6.0 c221_uuuuuuud MISSING
+   6.0 c221_uudddduu MISSING
+   6.0 c212_uuududuu MISSING
+   6.0 c212_uuududdu MISSING
+   6.0 c212_uuuddudd MISSING
+   6.0 c221_uuuuuddd MISSING

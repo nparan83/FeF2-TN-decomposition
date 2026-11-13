@@ -1,0 +1,8 @@
+dir: CV3  u(F): 0.3008929724
+set              E_AFM (Ry)        E_FM (Ry)  FM-AFM meV/Fe
+e70           -896.13512444    -896.13156529        24.2124
+e90           -896.14271522    -896.13916695        24.1383
+e110          -896.14367483    -896.14012644        24.1392
+k8812         -896.14271501    -896.13916674        24.1383
+commensurate-k check (per Fe, meV): AFM -0.0000  FM 0.0000  (2x1x2 vs 1x1x1, should be ~0)
+orbital check: eksik

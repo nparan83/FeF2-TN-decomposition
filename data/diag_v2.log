@@ -1,0 +1,107 @@
+== U3.0
+  configs: 27, outputs: 17
+  # target = lowest-energy c111_ud (m=3); try order: 3 1 2 5 4
+  sub 0 0.7510 0.0000 0.0000 -0.0000 0.6600
+  sub 1 -0.7510 0.0000 0.0000 -0.0000 0.6600
+  # m=3  E-Emin =     0.00 meV/Fe  target
+  # m=1  E-Emin =    22.53 meV/Fe  other orbital
+  # m=2  E-Emin =   123.48 meV/Fe  other orbital
+  # m=5  E-Emin =  1006.00 meV/Fe  other orbital
+  # m=4  E-Emin =  1011.50 meV/Fe  other orbital
+  label sets over configs: {'A': 1, 'B': 1, 'AC': 11, 'C': 2, 'ADEF': 1, 'notconv': 1}
+  c111_uu        conv=1  E/Fe-E(c111_ud)=1014.53  labels=AA  TS=0.0
+  c111_ud        conv=1  E/Fe-E(c111_ud)=0.00  labels=BB  TS=0.0
+  c112_uuud      conv=1  E/Fe-E(c111_ud)=1020.61  labels=CACC  TS=0.0
+  c112_uudd      conv=1  E/Fe-E(c111_ud)=1012.40  labels=CCCC  TS=0.0
+  c211_uuud      conv=1  E/Fe-E(c111_ud)=1021.54  labels=AAAC  TS=0.0
+  c211_uudd      conv=1  E/Fe-E(c111_ud)=1002.49  labels=CCCC  TS=0.0
+== U4.0
+  configs: 27, outputs: 18
+  # target = lowest-energy c111_ud (m=3); try order: 3 1 2 4 5
+  sub 0 0.7510 0.0000 0.0000 -0.0000 0.6600
+  sub 1 -0.7510 0.0000 0.0000 -0.0000 0.6600
+  # m=3  E-Emin =     0.00 meV/Fe  target
+  # m=1  E-Emin =    15.75 meV/Fe  other orbital
+  # m=2  E-Emin =   114.77 meV/Fe  other orbital
+  # m=4  E-Emin =   984.05 meV/Fe  other orbital
+  # m=5  E-Emin =   986.19 meV/Fe  other orbital
+  label sets over configs: {'A': 1, 'B': 1, 'AC': 11, 'C': 2, 'ACDE': 1, 'notconv': 2}
+  c111_uu        conv=1  E/Fe-E(c111_ud)=989.93  labels=AA  TS=-0.0
+  c111_ud        conv=1  E/Fe-E(c111_ud)=0.00  labels=BB  TS=0.0
+  c112_uuud      conv=1  E/Fe-E(c111_ud)=997.28  labels=CACC  TS=0.0
+  c112_uudd      conv=1  E/Fe-E(c111_ud)=990.91  labels=CCCC  TS=-0.0
+  c211_uuud      conv=1  E/Fe-E(c111_ud)=996.69  labels=AAAC  TS=0.0
+  c211_uudd      conv=1  E/Fe-E(c111_ud)=985.99  labels=CCCC  TS=-0.0
+== U5.0
+  configs: 27, outputs: 17
+  # target = lowest-energy c111_ud (m=3); try order: 3 1 2 4 5
+  sub 0 0.7510 0.0000 0.0000 -0.0000 0.6600
+  sub 1 -0.7510 0.0000 0.0000 -0.0000 0.6600
+  # m=3  E-Emin =     0.00 meV/Fe  target
+  # m=1  E-Emin =    10.24 meV/Fe  other orbital
+  # m=2  E-Emin =   107.46 meV/Fe  other orbital
+  # m=4  E-Emin =   957.83 meV/Fe  other orbital
+  # m=5  E-Emin =   963.99 meV/Fe  other orbital
+  label sets over configs: {'A': 1, 'B': 1, 'AC': 11, 'C': 2, 'ACDE': 1, 'notconv': 1}
+  c111_uu        conv=1  E/Fe-E(c111_ud)=963.86  labels=AA  TS=-0.0
+  c111_ud        conv=1  E/Fe-E(c111_ud)=0.00  labels=BB  TS=0.0
+  c112_uuud      conv=1  E/Fe-E(c111_ud)=972.86  labels=CACC  TS=0.0
+  c112_uudd      conv=1  E/Fe-E(c111_ud)=968.08  labels=CCCC  TS=-0.0
+  c211_uuud      conv=1  E/Fe-E(c111_ud)=970.89  labels=AAAC  TS=0.0
+  c211_uudd      conv=1  E/Fe-E(c111_ud)=964.80  labels=CCCC  TS=-0.0
+== U6.0
+  configs: 27, outputs: 18
+  # target = lowest-energy c111_ud (m=3); try order: 3 1 2 4 5
+  sub 0 0.7510 0.0000 0.0000 -0.0000 0.6600
+  sub 1 -0.7510 0.0000 0.0000 -0.0000 0.6600
+  # m=3  E-Emin =     0.00 meV/Fe  target
+  # m=1  E-Emin =     5.67 meV/Fe  other orbital
+  # m=2  E-Emin =   101.20 meV/Fe  other orbital
+  # m=4  E-Emin =   932.93 meV/Fe  other orbital
+  # m=5  E-Emin =   941.77 meV/Fe  other orbital
+  label sets over configs: {'A': 1, 'B': 1, 'AC': 11, 'C': 2, 'ACGH': 1, 'notconv': 2}
+  c111_uu        conv=1  E/Fe-E(c111_ud)=938.34  labels=AA  TS=0.0
+  c111_ud        conv=1  E/Fe-E(c111_ud)=0.00  labels=BB  TS=0.0
+  c112_uuud      conv=1  E/Fe-E(c111_ud)=955.11  labels=CACA  TS=-0.0
+  c112_uudd      conv=1  E/Fe-E(c111_ud)=945.51  labels=CCCC  TS=-0.0
+  c211_uuud      conv=1  E/Fe-E(c111_ud)=945.78  labels=AAAC  TS=0.0
+  c211_uudd      conv=1  E/Fe-E(c111_ud)=942.87  labels=CCCC  TS=-0.0
+== U7.0
+  configs: 27, outputs: 18
+  # target = lowest-energy c111_ud (m=3); try order: 3 1 2 4 5
+  sub 0 0.7520 0.0000 0.0000 -0.0000 0.6600
+  sub 1 -0.7520 0.0000 0.0000 -0.0000 0.6600
+  # m=3  E-Emin =     0.00 meV/Fe  target
+  # m=1  E-Emin =     1.83 meV/Fe  other orbital
+  # m=2  E-Emin =    95.76 meV/Fe  other orbital
+  # m=4  E-Emin =   909.35 meV/Fe  other orbital
+  # m=5  E-Emin =   920.23 meV/Fe  other orbital
+  label sets over configs: {'A': 1, 'B': 1, 'AC': 11, 'C': 2, 'ACGH': 1, 'notconv': 2}
+  c111_uu        conv=1  E/Fe-E(c111_ud)=913.93  labels=AA  TS=0.0
+  c111_ud        conv=1  E/Fe-E(c111_ud)=0.00  labels=BB  TS=0.0
+  c112_uuud      conv=1  E/Fe-E(c111_ud)=926.07  labels=CACC  TS=0.0
+  c112_uudd      conv=1  E/Fe-E(c111_ud)=923.73  labels=CCCC  TS=0.0
+  c211_uuud      conv=1  E/Fe-E(c111_ud)=921.80  labels=AAAC  TS=0.0
+  c211_uudd      conv=1  E/Fe-E(c111_ud)=921.35  labels=CCCC  TS=0.0
+== S0
+  chk212_afm     conv=1  labels=CCCCCCCC
+  chk212_fm      conv=1  labels=AAAAAAAA
+  cv_e110_afm    conv=1  labels=CC
+  cv_e110_fm     conv=1  labels=AA
+  cv_e70_afm     conv=1  labels=CC
+  cv_e70_fm      conv=1  labels=AA
+  cv_e90_afm     conv=1  labels=CC
+  cv_e90_fm      conv=1  labels=AA
+  cv_k8812_afm   conv=1  labels=CC
+  cv_k8812_fm    conv=1  labels=AA
+  cv_orb4_afm    conv=1  labels=AA
+  relax_afm      conv=1  labels=CC
+== orbital classes (corner-site frame, order z2 xz yz x2-y2 xy)
+  A  [-0.    0.71 -0.71  0.    0.  ]
+  B  [ 0.75  0.    0.   -0.    0.66]
+  C  [-0.65  0.    0.   -0.    0.76]
+  D  [-0.58  0.33 -0.33 -0.    0.66]
+  E  [-0.58 -0.33  0.33 -0.    0.66]
+  F  [-0.42 -0.   -0.   -0.81 -0.41]
+  G  [-0.38  0.58 -0.58 -0.    0.42]
+  H  [-0.38 -0.58  0.58 -0.    0.42]

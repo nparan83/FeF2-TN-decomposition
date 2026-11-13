@@ -1,0 +1,8 @@
+# heis-only window centres (K) for D' = 0.7175 meV (El Mendili-Zhitomirsky D_C), ~0.984 x D=0.82 values
+neutron heis 53.8
+dft_U4.51_B14 heis 70.7
+dft_U3.0_B14 heis 94.4
+dft_U4.0_B14 heis 77.8
+dft_U5.0_B14 heis 65.0
+dft_U6.0_B14 heis 54.0
+dft_U7.0_B14 heis 45.0

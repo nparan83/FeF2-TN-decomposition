@@ -1,0 +1,66 @@
+== U3.0
+  configs: 27, outputs: 17
+  label sets over configs: {'A': 1, 'B': 3, 'AB': 11, 'ACDE': 1, 'notconv': 1}
+  c111_uu        conv=1  E/Fe-E(c111_ud)=8.53  labels=AA  TS=0.0
+  c111_ud        conv=1  E/Fe-E(c111_ud)=0.00  labels=BB  TS=-0.0
+  c112_uuud      conv=1  E/Fe-E(c111_ud)=14.61  labels=BABB  TS=0.0
+  c112_uudd      conv=1  E/Fe-E(c111_ud)=6.40  labels=BBBB  TS=0.0
+  c211_uuud      conv=1  E/Fe-E(c111_ud)=15.53  labels=AAAB  TS=0.0
+  c211_uudd      conv=1  E/Fe-E(c111_ud)=-3.52  labels=BBBB  TS=0.0
+== U4.0
+  configs: 27, outputs: 18
+  label sets over configs: {'A': 1, 'B': 3, 'AB': 11, 'ABCD': 1, 'notconv': 2}
+  c111_uu        conv=1  E/Fe-E(c111_ud)=3.74  labels=AA  TS=-0.0
+  c111_ud        conv=1  E/Fe-E(c111_ud)=0.00  labels=BB  TS=-0.0
+  c112_uuud      conv=1  E/Fe-E(c111_ud)=11.09  labels=BABB  TS=0.0
+  c112_uudd      conv=1  E/Fe-E(c111_ud)=4.72  labels=BBBB  TS=-0.0
+  c211_uuud      conv=1  E/Fe-E(c111_ud)=10.50  labels=AAAB  TS=0.0
+  c211_uudd      conv=1  E/Fe-E(c111_ud)=-0.20  labels=BBBB  TS=-0.0
+== U5.0
+  configs: 27, outputs: 17
+  label sets over configs: {'A': 1, 'B': 3, 'AB': 11, 'ABCD': 1, 'notconv': 1}
+  c111_uu        conv=1  E/Fe-E(c111_ud)=-0.13  labels=AA  TS=-0.0
+  c111_ud        conv=1  E/Fe-E(c111_ud)=0.00  labels=BB  TS=-0.0
+  c112_uuud      conv=1  E/Fe-E(c111_ud)=8.87  labels=BABB  TS=0.0
+  c112_uudd      conv=1  E/Fe-E(c111_ud)=4.09  labels=BBBB  TS=-0.0
+  c211_uuud      conv=1  E/Fe-E(c111_ud)=6.90  labels=AAAB  TS=0.0
+  c211_uudd      conv=1  E/Fe-E(c111_ud)=0.81  labels=BBBB  TS=-0.0
+== U6.0
+  configs: 27, outputs: 18
+  label sets over configs: {'A': 1, 'B': 3, 'AB': 11, 'ABFG': 1, 'notconv': 2}
+  c111_uu        conv=1  E/Fe-E(c111_ud)=-3.44  labels=AA  TS=0.0
+  c111_ud        conv=1  E/Fe-E(c111_ud)=0.00  labels=BB  TS=-0.0
+  c112_uuud      conv=1  E/Fe-E(c111_ud)=13.34  labels=BABA  TS=-0.0
+  c112_uudd      conv=1  E/Fe-E(c111_ud)=3.74  labels=BBBB  TS=-0.0
+  c211_uuud      conv=1  E/Fe-E(c111_ud)=4.01  labels=AAAB  TS=0.0
+  c211_uudd      conv=1  E/Fe-E(c111_ud)=1.10  labels=BBBB  TS=-0.0
+== U7.0
+  configs: 27, outputs: 18
+  label sets over configs: {'A': 1, 'B': 3, 'AB': 11, 'ABFG': 1, 'notconv': 2}
+  c111_uu        conv=1  E/Fe-E(c111_ud)=-6.30  labels=AA  TS=0.0
+  c111_ud        conv=1  E/Fe-E(c111_ud)=0.00  labels=BB  TS=0.0
+  c112_uuud      conv=1  E/Fe-E(c111_ud)=5.85  labels=BABB  TS=0.0
+  c112_uudd      conv=1  E/Fe-E(c111_ud)=3.50  labels=BBBB  TS=0.0
+  c211_uuud      conv=1  E/Fe-E(c111_ud)=1.58  labels=AAAB  TS=0.0
+  c211_uudd      conv=1  E/Fe-E(c111_ud)=1.13  labels=BBBB  TS=0.0
+== S0
+  chk212_afm     conv=1  labels=BBBBBBBB
+  chk212_fm      conv=1  labels=AAAAAAAA
+  cv_e110_afm    conv=1  labels=BB
+  cv_e110_fm     conv=1  labels=AA
+  cv_e70_afm     conv=1  labels=BB
+  cv_e70_fm      conv=1  labels=AA
+  cv_e90_afm     conv=1  labels=BB
+  cv_e90_fm      conv=1  labels=AA
+  cv_k8812_afm   conv=1  labels=BB
+  cv_k8812_fm    conv=1  labels=AA
+  cv_orb4_afm    conv=1  labels=AA
+  relax_afm      conv=1  labels=BB
+== orbital classes (corner-site frame, order z2 xz yz x2-y2 xy)
+  A  [-0.    0.71 -0.71  0.    0.  ]
+  B  [-0.66  0.    0.   -0.    0.75]
+  C  [-0.58  0.33 -0.33 -0.    0.66]
+  D  [-0.58 -0.33  0.33 -0.    0.66]
+  E  [-0.42 -0.   -0.   -0.81 -0.41]
+  F  [-0.38  0.58 -0.58 -0.    0.42]
+  G  [-0.38 -0.58  0.58 -0.    0.42]
