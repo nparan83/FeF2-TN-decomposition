@@ -1,0 +1,9 @@
+# fef2_fss.py  model=bc  nu=0.6300  window 0.150-0.600  files=mcB_syn.dat
+# set             model  sizes          Tc(K)   stat   syst  total chi2/f    n     U*    Tc(2L) flags
+neu_Dp            bc     16/24         82.688  0.066  0.009  0.066   0.70    7  0.492    82.688 
+neu_J2p           bc     16/24         85.504  0.081  0.066  0.105   0.09    6  0.510    85.504 
+syn_Dhigh         bc     16/24        129.041  0.181  0.506  0.537   3.28    8  0.507   129.041 
+syn_Dlow          bc     16/24        102.831  0.071  0.018  0.073   0.22    7  0.422   102.831 
+syn_J1neg         bc     16/24        116.010  0.073  0.171  0.186   0.06    7  0.417   116.010 
+syn_J2only        too few points
+syn_J47x2         too few points

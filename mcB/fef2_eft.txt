@@ -1,0 +1,9 @@
+# Blume-Capel S=2, D = 0.820 meV: single-site MFA and EFT (decoupling) Neel temperatures
+set                 J_eff    T_MFA    T_EFT
+neutron            3.6560    96.69    88.96
+dft_U3.0_B14       7.0973   177.22   161.69
+dft_U4.0_B14       5.7046   144.71   131.88
+dft_U4.51_B14      5.1124   130.87   119.21
+dft_U5.0_B14       4.6044   118.97   108.33
+dft_U6.0_B14       3.7209    98.22    89.38
+dft_U7.0_B14       3.0029    81.27    73.90

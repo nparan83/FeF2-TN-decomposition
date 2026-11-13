@@ -1,0 +1,130 @@
+== v3_U5.0 : 77 runs, 62.6 node-h total
+  scr  nFe=8  n= 30  wall/run   19.6 min (max   86.0)  iters 34  conv 24/30  target 4/30
+  full nFe=2  n=  8  wall/run    0.5 min (max    0.6)  iters 17  conv 8/8  target 2/8
+  full nFe=4  n= 14  wall/run   14.4 min (max  161.0)  iters 35  conv 13/14  target 2/14
+  full nFe=8  n= 12  wall/run  196.9 min (max 1007.0)  iters 42  conv 9/12  target 4/12
+  fail nFe=4  n=  1  wall/run   34.3 min (max   34.3)  iters -  conv 0/1  target 0/1
+  fail nFe=8  n= 12  wall/run   63.5 min (max  168.0)  iters -  conv 0/12  target 0/12
+   c111_ud_m2               full nFe=2 wall=    0.5 min it=15   conv=1 target=0 minov=0.00 E/Fe-E(c111_ud)=   133.33 worst=0.00 0.00 -0.00 1.00 -0.00
+   c111_ud_m3               full nFe=2 wall=    0.5 min it=16   conv=1 target=0 minov=0.00 E/Fe-E(c111_ud)=   167.56 worst=0.00 -0.71 -0.71 -0.00 -0.00
+   c111_ud_m4               full nFe=2 wall=    0.5 min it=15   conv=1 target=0 minov=0.00 E/Fe-E(c111_ud)=   802.25 worst=-0.00 0.71 -0.71 0.00 0.00
+   c111_ud_m5               full nFe=2 wall=    0.6 min it=22   conv=1 target=0 minov=0.00 E/Fe-E(c111_ud)=  1185.09 worst=-0.60 0.00 0.00 -0.00 0.80
+   c111_uu_m1               full nFe=2 wall=    0.4 min it=16   conv=1 target=0 minov=0.00 E/Fe-E(c111_ud)=   158.31 worst=0.00 0.00 -0.00 1.00 -0.00
+   c111_uu_m2               full nFe=2 wall=    0.4 min it=17   conv=1 target=0 minov=0.00 E/Fe-E(c111_ud)=   180.40 worst=0.00 -0.71 -0.71 -0.00 -0.00
+   c112_uudd_m3             full nFe=4 wall=    1.1 min it=16   conv=1 target=0 minov=0.00 E/Fe-E(c111_ud)=   171.55 worst=0.00 -0.71 -0.71 -0.00 -0.00
+   c112_uuud_m1             full nFe=4 wall=    1.4 min it=16   conv=1 target=0 minov=0.00 E/Fe-E(c111_ud)=   144.64 worst=0.00 0.00 -0.00 1.00 -0.00
+   c112_uuud_m2             full nFe=4 wall=    1.6 min it=19   conv=1 target=0 minov=0.00 E/Fe-E(c111_ud)=   100.87 worst=0.00 -0.71 -0.71 -0.00 -0.00
+   c112_uuud_m3             full nFe=4 wall=    1.6 min it=19   conv=1 target=0 minov=0.00 E/Fe-E(c111_ud)=   100.41 worst=-0.00 0.71 -0.71 0.00 0.00
+   c112_uuud_m4             full nFe=4 wall=    1.4 min it=17   conv=1 target=0 minov=0.00 E/Fe-E(c111_ud)=   805.00 worst=-0.00 0.71 -0.71 0.00 0.00
+   c112_uuud_m5             full nFe=4 wall=    2.3 min it=33   conv=1 target=0 minov=0.00 E/Fe-E(c111_ud)=  1187.15 worst=0.60 0.00 0.00 -0.00 0.80
+   c211_uudd_m1             full nFe=4 wall=  161.0 min it=None conv=0 target=0 minov=0.18 E/Fe-E(c111_ud)=        - worst=0.14 0.00 -0.00 0.98 0.12
+   c211_uudd_m1_david_fail  fail nFe=4 wall=   34.3 min it=None conv=0 target=0 minov=0.21 E/Fe-E(c111_ud)=        - worst=0.16 0.00 -0.00 0.98 0.14
+   c211_uuud_m1             full nFe=4 wall=   13.7 min it=120  conv=1 target=0 minov=0.00 E/Fe-E(c111_ud)=   145.54 worst=0.00 -0.00 0.00 -1.00 0.00
+   c211_uuud_m2             full nFe=4 wall=    3.0 min it=30   conv=1 target=0 minov=0.00 E/Fe-E(c111_ud)=   101.29 worst=-0.00 0.71 -0.71 0.00 0.00
+   c211_uuud_m3             full nFe=4 wall=    4.5 min it=46   conv=1 target=0 minov=0.00 E/Fe-E(c111_ud)=   101.22 worst=0.00 -0.71 -0.71 -0.00 -0.00
+   c211_uuud_m4             full nFe=4 wall=    2.4 min it=25   conv=1 target=0 minov=0.00 E/Fe-E(c111_ud)=   806.82 worst=-0.00 -0.71 0.71 -0.00 -0.00
+   c211_uuud_m5             full nFe=4 wall=    4.5 min it=56   conv=1 target=0 minov=0.00 E/Fe-E(c111_ud)=  1185.25 worst=0.60 0.00 0.00 0.00 0.80
+   c212_uudddduu_s1_david_fail fail nFe=8 wall=   22.6 min it=None conv=0 target=0 minov=0.04 E/Fe-E(c111_ud)=        - worst=0.03 -0.01 -0.01 -1.00 0.03
+   c212_uudduddu_s2_david_fail fail nFe=8 wall=   15.6 min it=None conv=0 target=0 minov=0.05 E/Fe-E(c111_ud)=        - worst=-0.04 -0.00 0.00 -1.00 0.03
+   c212_uuuddudd_s2_david_fail fail nFe=8 wall=   18.3 min it=None conv=0 target=0 minov=0.00 E/Fe-E(c111_ud)=        - worst=0.00 -0.71 -0.71 -0.00 -0.00
+   c212_uuududdu_m1         full nFe=8 wall=    0.0 min it=None conv=0 target=0 minov=0.08 E/Fe-E(c111_ud)=        - worst=0.06 0.06 0.06 -0.99 0.05
+   c212_uuududdu_m1_david_fail fail nFe=8 wall=  166.0 min it=None conv=0 target=0 minov=0.01 E/Fe-E(c111_ud)=        - worst=0.00 -0.04 -0.04 1.00 0.01
+   c212_uuududdu_m2         full nFe=8 wall=  881.0 min it=None conv=0 target=0 minov=0.01 E/Fe-E(c111_ud)=        - worst=-0.01 0.01 -0.01 1.00 0.01
+   c212_uuududdu_m2_david_fail fail nFe=8 wall=  137.0 min it=None conv=0 target=0 minov=0.09 E/Fe-E(c111_ud)=        - worst=0.07 0.66 0.68 0.31 0.05
+   c212_uuududdu_m3         full nFe=8 wall= 1007.0 min it=None conv=0 target=0 minov=0.01 E/Fe-E(c111_ud)=        - worst=0.01 -0.71 -0.71 0.02 0.00
+   c212_uuududdu_m3_david_fail fail nFe=8 wall=  143.0 min it=None conv=0 target=0 minov=0.06 E/Fe-E(c111_ud)=        - worst=0.05 -0.70 -0.71 0.01 0.04
+   c212_uuududdu_s1_david_fail fail nFe=8 wall=   19.7 min it=None conv=0 target=0 minov=0.03 E/Fe-E(c111_ud)=        - worst=0.02 -0.07 -0.07 0.99 0.02
+   c212_uuududdu_s2_david_fail fail nFe=8 wall=   16.8 min it=None conv=0 target=0 minov=0.10 E/Fe-E(c111_ud)=        - worst=0.08 -0.70 -0.69 -0.18 0.06
+   c212_uuududdu_s3_david_fail fail nFe=8 wall=   16.4 min it=None conv=0 target=0 minov=0.09 E/Fe-E(c111_ud)=        - worst=-0.07 0.71 -0.70 0.05 0.05
+   c212_uuududuu_m2_david_fail fail nFe=8 wall=  168.0 min it=None conv=0 target=0 minov=0.07 E/Fe-E(c111_ud)=        - worst=-0.06 0.00 -0.00 1.00 0.05
+   c212_uuududuu_s1_david_fail fail nFe=8 wall=   19.8 min it=None conv=0 target=0 minov=0.05 E/Fe-E(c111_ud)=        - worst=0.04 -0.07 -0.07 -0.99 0.04
+   c212_uuududuu_s2_david_fail fail nFe=8 wall=   18.6 min it=None conv=0 target=0 minov=0.06 E/Fe-E(c111_ud)=        - worst=-0.04 -0.00 -0.00 1.00 0.04
+   c221_uuuuuuud_m1         full nFe=8 wall=   11.3 min it=40   conv=1 target=0 minov=0.00 E/Fe-E(c111_ud)=   151.86 worst=0.00 0.00 -0.00 1.00 -0.00
+   c221_uuuuuuud_m2         full nFe=8 wall=    6.5 min it=23   conv=1 target=0 minov=0.00 E/Fe-E(c111_ud)=   158.89 worst=0.00 -0.71 -0.71 -0.00 -0.00
+   c221_uuuuuuud_m3         full nFe=8 wall=    8.2 min it=29   conv=1 target=0 minov=0.00 E/Fe-E(c111_ud)=    38.42 worst=-0.00 0.71 -0.71 0.00 0.00
+   c221_uuuuuuud_m4         full nFe=8 wall=    7.5 min it=27   conv=1 target=0 minov=0.00 E/Fe-E(c111_ud)=   809.32 worst=-0.00 0.71 -0.71 0.00 0.00
+   c221_uuuuuuud_m5         full nFe=8 wall=    9.5 min it=36   conv=1 target=0 minov=0.00 E/Fe-E(c111_ud)=  1185.42 worst=0.60 0.00 0.00 -0.00 0.80
+== v3_U6.0 : 77 runs, 60.0 node-h total
+  scr  nFe=8  n= 33  wall/run   11.7 min (max   84.0)  iters 30  conv 29/33  target 3/33
+  full nFe=2  n=  8  wall/run    0.5 min (max    0.7)  iters 18  conv 8/8  target 2/8
+  full nFe=4  n= 12  wall/run   16.5 min (max  155.0)  iters 30  conv 11/12  target 3/12
+  full nFe=8  n= 15  wall/run  166.7 min (max 1104.0)  iters 40  conv 12/15  target 2/15
+  fail nFe=4  n=  2  wall/run   36.8 min (max   41.4)  iters -  conv 0/2  target 0/2
+  fail nFe=8  n=  7  wall/run   86.5 min (max  205.0)  iters -  conv 0/7  target 0/7
+   c111_ud_m2               full nFe=2 wall=    0.5 min it=16   conv=1 target=0 minov=0.00 E/Fe-E(c111_ud)=   127.25 worst=0.00 0.00 -0.00 1.00 -0.00
+   c111_ud_m3               full nFe=2 wall=    0.5 min it=15   conv=1 target=0 minov=0.00 E/Fe-E(c111_ud)=   160.91 worst=0.00 -0.71 -0.71 -0.00 -0.00
+   c111_ud_m4               full nFe=2 wall=    0.6 min it=17   conv=1 target=0 minov=0.00 E/Fe-E(c111_ud)=   781.68 worst=-0.00 0.71 -0.71 0.00 0.00
+   c111_ud_m5               full nFe=2 wall=    0.7 min it=22   conv=1 target=0 minov=0.00 E/Fe-E(c111_ud)=  1160.58 worst=-0.60 0.00 0.00 -0.00 0.80
+   c111_uu_m1               full nFe=2 wall=    0.4 min it=16   conv=1 target=0 minov=0.00 E/Fe-E(c111_ud)=   147.54 worst=0.00 0.00 0.00 1.00 -0.00
+   c111_uu_m2               full nFe=2 wall=    0.5 min it=18   conv=1 target=0 minov=0.00 E/Fe-E(c111_ud)=   171.46 worst=0.00 -0.71 -0.71 -0.00 -0.00
+   c112_uudd_m3             full nFe=4 wall=    1.0 min it=15   conv=1 target=0 minov=0.00 E/Fe-E(c111_ud)=   164.49 worst=0.00 -0.71 -0.71 -0.00 -0.00
+   c112_uuud_m1             full nFe=4 wall=    1.6 min it=19   conv=1 target=0 minov=0.00 E/Fe-E(c111_ud)=   106.96 worst=0.00 0.00 -0.00 1.00 -0.00
+   c112_uuud_m2             full nFe=4 wall=    1.6 min it=19   conv=1 target=0 minov=0.00 E/Fe-E(c111_ud)=    41.03 worst=0.00 0.00 -0.00 1.00 -0.00
+   c112_uuud_m3             full nFe=4 wall=    1.4 min it=16   conv=1 target=0 minov=0.00 E/Fe-E(c111_ud)=   165.35 worst=0.00 -0.71 -0.71 -0.00 -0.00
+   c112_uuud_m4             full nFe=4 wall=    1.4 min it=17   conv=1 target=0 minov=0.00 E/Fe-E(c111_ud)=   784.10 worst=-0.00 0.71 -0.71 0.00 0.00
+   c112_uuud_m5             full nFe=4 wall=    2.6 min it=37   conv=1 target=0 minov=0.00 E/Fe-E(c111_ud)=  1162.88 worst=0.60 0.00 0.00 -0.00 0.80
+   c211_uudd_m1             full nFe=4 wall=  155.0 min it=None conv=0 target=0 minov=0.36 E/Fe-E(c111_ud)=        - worst=0.27 0.00 0.00 0.93 0.24
+   c211_uudd_m1_david_fail  fail nFe=4 wall=   32.3 min it=None conv=0 target=0 minov=0.31 E/Fe-E(c111_ud)=        - worst=0.23 0.00 -0.00 0.95 0.20
+   c211_uuud_m1             full nFe=4 wall=   21.6 min it=70   conv=1 target=0 minov=0.01 E/Fe-E(c111_ud)=    42.96 worst=-0.01 -0.00 0.00 -1.00 0.01
+   c211_uuud_m1_david_fail  fail nFe=4 wall=   41.4 min it=None conv=0 target=0 minov=0.01 E/Fe-E(c111_ud)=        - worst=0.01 0.00 -0.00 1.00 0.01
+   c211_uuud_m3             full nFe=4 wall=    2.0 min it=20   conv=1 target=0 minov=0.00 E/Fe-E(c111_ud)=   165.97 worst=0.00 -0.71 -0.71 -0.00 -0.00
+   c212_uudddduu_s2_david_fail fail nFe=8 wall=   22.0 min it=None conv=0 target=0 minov=0.43 E/Fe-E(c111_ud)=        - worst=0.33 -0.03 -0.01 0.90 0.28
+   c212_uuuddudd_s1_david_fail fail nFe=8 wall=   18.4 min it=None conv=0 target=0 minov=0.27 E/Fe-E(c111_ud)=        - worst=0.21 0.00 -0.00 0.96 0.18
+   c212_uuududdu_s1_david_fail fail nFe=8 wall=   17.7 min it=None conv=0 target=0 minov=0.03 E/Fe-E(c111_ud)=        - worst=0.02 -0.08 -0.08 0.99 0.02
+   c212_uuududuu_m1         full nFe=8 wall= 1052.0 min it=None conv=0 target=0 minov=0.20 E/Fe-E(c111_ud)=        - worst=0.15 -0.01 -0.01 -0.98 0.13
+   c212_uuududuu_m1_david_fail fail nFe=8 wall=  147.0 min it=None conv=0 target=0 minov=0.01 E/Fe-E(c111_ud)=        - worst=0.01 0.09 0.09 0.99 0.01
+   c212_uuududuu_m2         full nFe=8 wall= 1104.0 min it=None conv=0 target=0 minov=0.45 E/Fe-E(c111_ud)=        - worst=-0.35 -0.00 -0.00 0.89 0.29
+   c212_uuududuu_m2_david_fail fail nFe=8 wall=  181.0 min it=None conv=0 target=0 minov=0.09 E/Fe-E(c111_ud)=        - worst=-0.07 0.00 0.00 1.00 0.06
+   c212_uuududuu_m3         full nFe=8 wall=    0.0 min it=None conv=0 target=0 minov=0.00 E/Fe-E(c111_ud)=        - worst=-0.00 0.71 -0.71 0.00 0.00
+   c212_uuududuu_m3_david_fail fail nFe=8 wall=  205.0 min it=None conv=0 target=0 minov=0.00 E/Fe-E(c111_ud)=        - worst=-0.00 0.71 -0.71 0.00 0.00
+   c221_uudddduu_m1         full nFe=8 wall=    5.1 min it=17   conv=1 target=0 minov=0.00 E/Fe-E(c111_ud)=   136.99 worst=0.00 0.00 -0.00 1.00 -0.00
+   c221_uudddduu_m2         full nFe=8 wall=    5.5 min it=19   conv=1 target=0 minov=0.00 E/Fe-E(c111_ud)=    92.22 worst=0.00 -0.71 -0.71 -0.00 -0.00
+   c221_uudddduu_m3         full nFe=8 wall=    5.5 min it=19   conv=1 target=0 minov=0.00 E/Fe-E(c111_ud)=    99.28 worst=-0.00 0.71 -0.71 0.00 0.00
+   c221_uudddduu_m4         full nFe=8 wall=    4.8 min it=16   conv=1 target=0 minov=0.00 E/Fe-E(c111_ud)=   785.58 worst=-0.00 0.71 -0.71 0.00 0.00
+   c221_uudddduu_m5         full nFe=8 wall=    7.1 min it=26   conv=1 target=0 minov=0.00 E/Fe-E(c111_ud)=  1161.53 worst=-0.60 0.00 0.00 -0.00 0.80
+   c221_uuuuuddd_s1_david_fail fail nFe=8 wall=   14.2 min it=None conv=0 target=0 minov=0.01 E/Fe-E(c111_ud)=        - worst=0.01 0.00 -0.00 1.00 0.00
+   c221_uuuuuuud_m1         full nFe=8 wall=   16.1 min it=52   conv=1 target=0 minov=0.00 E/Fe-E(c111_ud)=   142.30 worst=0.00 0.00 -0.00 1.00 -0.00
+   c221_uuuuuuud_m2         full nFe=8 wall=    7.4 min it=26   conv=1 target=0 minov=0.00 E/Fe-E(c111_ud)=    57.01 worst=-0.00 0.71 -0.71 0.00 0.00
+   c221_uuuuuuud_m3         full nFe=8 wall=    8.7 min it=31   conv=1 target=0 minov=0.00 E/Fe-E(c111_ud)=   136.18 worst=0.00 -0.71 -0.71 -0.00 -0.00
+   c221_uuuuuuud_m4         full nFe=8 wall=    5.8 min it=20   conv=1 target=0 minov=0.00 E/Fe-E(c111_ud)=   787.78 worst=-0.00 0.71 -0.71 0.00 0.00
+   c221_uuuuuuud_m5         full nFe=8 wall=    9.6 min it=37   conv=1 target=0 minov=0.00 E/Fe-E(c111_ud)=  1161.97 worst=0.60 0.00 0.00 -0.00 0.80
+== v3_U7.0 : 65 runs, 74.3 node-h total
+  scr  nFe=8  n= 22  wall/run   16.5 min (max   76.0)  iters 29  conv 18/22  target 5/22
+  full nFe=2  n=  7  wall/run    0.5 min (max    0.6)  iters 17  conv 7/7  target 2/7
+  full nFe=4  n= 14  wall/run   13.6 min (max  125.0)  iters 55  conv 13/14  target 3/14
+  full nFe=8  n= 12  wall/run  266.0 min (max 1021.0)  iters 122  conv 10/12  target 6/12
+  fail nFe=4  n=  1  wall/run   29.4 min (max   29.4)  iters -  conv 0/1  target 0/1
+  fail nFe=8  n=  9  wall/run   75.3 min (max  162.0)  iters -  conv 0/9  target 0/9
+   c111_ud_m2               full nFe=2 wall=    0.5 min it=15   conv=1 target=0 minov=0.00 E/Fe-E(c111_ud)=   121.71 worst=0.00 0.00 -0.00 1.00 -0.00
+   c111_ud_m3               full nFe=2 wall=    0.5 min it=16   conv=1 target=0 minov=0.00 E/Fe-E(c111_ud)=   154.87 worst=0.00 -0.71 -0.71 -0.00 -0.00
+   c111_ud_m4               full nFe=2 wall=    0.6 min it=17   conv=1 target=0 minov=0.00 E/Fe-E(c111_ud)=   762.17 worst=-0.00 0.71 -0.71 0.00 0.00
+   c111_ud_m5               full nFe=2 wall=    0.6 min it=21   conv=1 target=0 minov=0.00 E/Fe-E(c111_ud)=  1136.29 worst=-0.60 0.00 0.00 -0.00 0.80
+   c111_uu_m1               full nFe=2 wall=    0.4 min it=16   conv=1 target=0 minov=0.00 E/Fe-E(c111_ud)=   138.21 worst=0.00 0.00 -0.00 1.00 -0.00
+   c112_uudd_m2             full nFe=4 wall=    1.3 min it=17   conv=1 target=0 minov=0.00 E/Fe-E(c111_ud)=   128.63 worst=0.00 0.00 0.00 1.00 -0.00
+   c112_uuud_m1             full nFe=4 wall=    1.6 min it=19   conv=1 target=0 minov=0.00 E/Fe-E(c111_ud)=    73.54 worst=0.00 0.00 -0.00 1.00 -0.00
+   c112_uuud_m2             full nFe=4 wall=    1.6 min it=19   conv=1 target=0 minov=0.00 E/Fe-E(c111_ud)=    73.26 worst=0.00 0.00 -0.00 1.00 -0.00
+   c112_uuud_m3             full nFe=4 wall=    1.4 min it=16   conv=1 target=0 minov=0.00 E/Fe-E(c111_ud)=   158.61 worst=0.00 -0.71 -0.71 -0.00 -0.00
+   c112_uuud_m4             full nFe=4 wall=    1.4 min it=16   conv=1 target=0 minov=0.00 E/Fe-E(c111_ud)=   764.17 worst=-0.00 0.71 -0.71 0.00 0.00
+   c112_uuud_m5             full nFe=4 wall=    2.1 min it=29   conv=1 target=0 minov=0.00 E/Fe-E(c111_ud)=  1138.54 worst=0.60 0.00 0.00 -0.00 0.80
+   c211_uudd_m1             full nFe=4 wall=  125.0 min it=None conv=0 target=1 minov=0.98 E/Fe-E(c111_ud)=        - worst=0.79 0.00 0.00 0.22 0.57
+   c211_uudd_m1_david_fail  fail nFe=4 wall=   29.4 min it=None conv=0 target=0 minov=0.30 E/Fe-E(c111_ud)=        - worst=0.23 0.00 -0.00 0.95 0.20
+   c211_uuud_m1             full nFe=4 wall=   14.0 min it=143  conv=1 target=0 minov=0.01 E/Fe-E(c111_ud)=    40.54 worst=-0.01 -0.00 0.00 -1.00 0.01
+   c211_uuud_m2             full nFe=4 wall=   25.6 min it=255  conv=1 target=0 minov=0.00 E/Fe-E(c111_ud)=    73.76 worst=0.00 0.00 -0.00 1.00 0.00
+   c211_uuud_m3             full nFe=4 wall=    2.0 min it=20   conv=1 target=0 minov=0.00 E/Fe-E(c111_ud)=   158.99 worst=0.00 -0.71 -0.71 -0.00 -0.00
+   c211_uuud_m4             full nFe=4 wall=    2.1 min it=21   conv=1 target=0 minov=0.00 E/Fe-E(c111_ud)=   765.49 worst=-0.00 -0.71 0.71 -0.00 -0.00
+   c211_uuud_m5             full nFe=4 wall=    6.6 min it=85   conv=1 target=0 minov=0.00 E/Fe-E(c111_ud)=  1137.38 worst=0.60 0.00 0.00 0.00 0.80
+   c212_uuuddudd_m1_david_fail fail nFe=8 wall=  137.0 min it=None conv=0 target=0 minov=0.29 E/Fe-E(c111_ud)=        - worst=0.21 0.00 0.00 0.96 0.19
+   c212_uuuddudd_m2         full nFe=8 wall=   46.7 min it=111  conv=1 target=0 minov=0.00 E/Fe-E(c111_ud)=    73.09 worst=-0.00 -0.00 0.00 -1.00 0.00
+   c212_uuuddudd_s1_david_fail fail nFe=8 wall=   17.6 min it=None conv=0 target=0 minov=0.35 E/Fe-E(c111_ud)=        - worst=0.27 0.00 0.00 0.94 0.23
+   c212_uuududdu_m1         full nFe=8 wall=  112.0 min it=226  conv=1 target=0 minov=0.04 E/Fe-E(c111_ud)=    22.04 worst=0.03 0.01 0.01 1.00 0.03
+   c212_uuududdu_m2         full nFe=8 wall=  962.0 min it=None conv=0 target=0 minov=0.08 E/Fe-E(c111_ud)=        - worst=-0.06 0.04 -0.04 -0.99 0.06
+   c212_uuududdu_m2_david_fail fail nFe=8 wall=  143.0 min it=None conv=0 target=0 minov=0.00 E/Fe-E(c111_ud)=        - worst=-0.00 -0.02 0.03 -1.00 0.00
+   c212_uuududdu_m3         full nFe=8 wall= 1021.0 min it=None conv=0 target=0 minov=0.00 E/Fe-E(c111_ud)=        - worst=0.00 0.71 -0.71 0.00 0.00
+   c212_uuududdu_m3_david_fail fail nFe=8 wall=  150.0 min it=None conv=0 target=0 minov=0.00 E/Fe-E(c111_ud)=        - worst=-0.00 -0.71 -0.71 -0.04 0.01
+   c212_uuududdu_m4         full nFe=8 wall=   26.8 min it=60   conv=1 target=0 minov=0.00 E/Fe-E(c111_ud)=   763.33 worst=0.00 0.71 0.71 0.00 0.00
+   c212_uuududdu_m5         full nFe=8 wall=   52.4 min it=129  conv=1 target=0 minov=0.00 E/Fe-E(c111_ud)=  1138.98 worst=-0.60 -0.00 -0.00 -0.00 0.80
+   c212_uuududdu_s2_david_fail fail nFe=8 wall=   20.3 min it=None conv=0 target=0 minov=0.00 E/Fe-E(c111_ud)=        - worst=-0.00 -0.01 0.01 -1.00 0.00
+   c212_uuududuu_m1_david_fail fail nFe=8 wall=  162.0 min it=None conv=0 target=0 minov=0.29 E/Fe-E(c111_ud)=        - worst=0.22 -0.01 -0.00 -0.95 0.20
+   c212_uuududuu_s1_david_fail fail nFe=8 wall=   19.2 min it=None conv=0 target=0 minov=0.21 E/Fe-E(c111_ud)=        - worst=0.16 -0.01 -0.01 -0.98 0.14
+   c221_uuuuuddd_s1_david_fail fail nFe=8 wall=   13.8 min it=None conv=0 target=0 minov=0.01 E/Fe-E(c111_ud)=        - worst=0.00 0.00 -0.00 1.00 0.00
+   c221_uuuuuddd_s2_david_fail fail nFe=8 wall=   14.4 min it=None conv=0 target=0 minov=0.24 E/Fe-E(c111_ud)=        - worst=0.18 -0.00 0.00 -0.97 0.16

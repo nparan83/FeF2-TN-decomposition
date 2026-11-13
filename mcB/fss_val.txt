@@ -1,0 +1,3 @@
+# fef2_fss.py  model=ising1  nu=0.6300  window 0.150-0.600  files=mcB_val.dat
+# set             model  sizes          Tc(K)   stat   syst  total chi2/f    n     U*    Tc(2L) flags
+bcc_ising         ising1 16/24/32      73.719  0.023  0.027  0.036   1.17   21  0.484    73.719 

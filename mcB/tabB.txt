@@ -1,0 +1,63 @@
+== (1) Table 2: Blume-Capel S=2, D = 0.82 meV; MC = FSS fit, L = 16/24/32 (total error)
+set                   MFA      EFT               MC   MFA/MC   EFT/MC
+neutron             96.69    88.96     82.32 +- 0.05   1.1745   1.0806
+dft_U3.0_B14       177.22   161.69    149.72 +- 0.10   1.1837   1.0800
+dft_U4.0_B14       144.71   131.88    122.21 +- 0.06   1.1841   1.0791
+dft_U4.51_B14      130.87   119.21    110.51 +- 0.05   1.1843   1.0788
+dft_U5.0_B14       118.97   108.33    100.47 +- 0.08   1.1842   1.0783
+dft_U6.0_B14        98.22    89.38     82.91 +- 0.06   1.1846   1.0780
+dft_U7.0_B14        81.27    73.90     68.59 +- 0.03   1.1849   1.0775
+
+== (2) Decomposition  T_EFT(J_DFT)/T_exp = 1.5202 = J 1.3423 x EFT 1.0788 x model 1.0498
+   log shares: J 70.3 %  EFT 18.1 %  model 11.6 %
+   MC errors only:   J 1.3423 +- 0.0011   EFT 1.0788 +- 0.0005   model 1.0498 +- 0.0007
+   neutron-parameter sensitivities (EFT code, +-1 sigma, central differences):
+     J1  sigma 0.0030 -> dT/T = -0.0017
+     J2  sigma 0.0200 -> dT/T = +0.0390
+     J4  sigma 0.0010 -> dT/T = -0.0023
+     J7  sigma 0.0035 -> dT/T = -0.0041
+     D   sigma 0.0400 -> dT/T = +0.0053
+   total relative neutron error of T_N(J_n): 0.0397
+   with neutron error:  J 1.342 +- 0.053   model 1.050 +- 0.042   (EFT factor unaffected)
+   log shares with neutron error: J 70 +- 9 %, model 12 +- 9 %
+   alternative ordering  [EFT(J_DFT)/EFT(J_n)] x [EFT(J_n)/MC(J_n)] x model: 1.3400 x 1.0806 x 1.0498
+   MC check (L=16/24): neu_J2p  +1 sigma J2: MC dT/T = +0.0389 +- 0.0014   EFT dT/T = +0.0390
+   MC check (L=16/24): neu_Dp   +1 sigma D: MC dT/T = +0.0046 +- 0.0010   EFT dT/T = +0.0053
+
+== (3) EFT/MC and MFA/MC: production sets (L = 16/24/32) and synthetic/sensitivity sets (L = 12/16/24)
+neutron          MC    82.32 +- 0.05   MFA/MC 1.1745   EFT/MC 1.0806
+dft_U3.0_B14     MC   149.72 +- 0.10   MFA/MC 1.1837   EFT/MC 1.0800
+dft_U4.0_B14     MC   122.21 +- 0.06   MFA/MC 1.1841   EFT/MC 1.0791
+dft_U4.51_B14    MC   110.51 +- 0.05   MFA/MC 1.1843   EFT/MC 1.0788
+dft_U5.0_B14     MC   100.47 +- 0.08   MFA/MC 1.1842   EFT/MC 1.0783
+dft_U6.0_B14     MC    82.91 +- 0.06   MFA/MC 1.1846   EFT/MC 1.0780
+dft_U7.0_B14     MC    68.59 +- 0.03   MFA/MC 1.1849   EFT/MC 1.0775
+neu_Dp           MC    82.73 +- 0.06   MFA/MC 1.1750   EFT/MC 1.0809
+neu_J2p          MC    85.58 +- 0.09   MFA/MC 1.1738   EFT/MC 1.0800
+syn_Dhigh        MC   129.15 +- 0.15   MFA/MC 1.1844   EFT/MC 1.0782
+syn_Dlow         MC   102.73 +- 0.11   MFA/MC 1.1859   EFT/MC 1.0798
+syn_J1neg        MC   115.89 +- 0.13   MFA/MC 1.1768   EFT/MC 1.0811
+syn_J2only       MC   117.89 +- 0.07   MFA/MC 1.1710   EFT/MC 1.0785
+syn_J47x2        MC   105.55 +- 0.17   MFA/MC 1.1985   EFT/MC 1.0830
+   all 14 sets: EFT/MC 1.0775 - 1.0830 (mean 1.0796)   MFA/MC 1.1710 - 1.1985
+
+== (4) isotropic classical Heisenberg (D = 0, spin length 2), x (S+1)/S = 1.5 as in Ref. [3]
+dft_U4.51_D0     T_MC   59.61 +- 0.10   x1.5 =   89.41   vs exp  +14.0 %
+neutron_D0       T_MC   43.28 +- 0.04   x1.5 =   64.92   vs exp  -17.2 %
+
+== (5) bcc nn Ising validation: Tc(FSS) = 73.719 +- 0.036 K, series 73.739 K -> deviation -0.027 % (+- 0.049 %)
+
+== (6) classical Heisenberg with anisotropy (FSS): D = 0.82 meV and D_C mapping (0.875 D); x1.5
+neutron          D=0.82: 54.59+-0.05   0.875D: 53.54+-0.04 (x1.5 80.31)   mapped/BC 0.9755
+dft_U3.0_B14     D=0.82: 96.63+-0.04   0.875D: 95.34+-0.25 (x1.5 143.02)   mapped/BC 0.9552
+dft_U4.0_B14     D=0.82: 79.33+-0.07   0.875D: 78.20+-0.12 (x1.5 117.30)   mapped/BC 0.9599
+dft_U4.51_B14    D=0.82: 72.07+-0.04   0.875D: 70.89+-0.05 (x1.5 106.33)   mapped/BC 0.9622
+dft_U5.0_B14     D=0.82: 65.70+-0.23   0.875D: 64.77+-0.14 (x1.5 97.15)   mapped/BC 0.9670
+dft_U6.0_B14     D=0.82: 54.84+-0.13   0.875D: 53.74+-0.06 (x1.5 80.61)   mapped/BC 0.9723
+dft_U7.0_B14     D=0.82: 45.82+-0.07   0.875D: 44.87+-0.27 (x1.5 67.30)   mapped/BC 0.9812
+
+== (7) atomic projectors, U = 2.91 eV: J(S=2) J1=0.01046 J2=0.97741 J3=-0.00435 J4=0.02524 J7=0.02646
+   J2/J2(neutron) = 2.125   J2 S^2 U = 11.38 meV eV   J_eff 7.5080   T_MFA 186.79   T_EFT 170.74   T_EFT/<EFT/MC> = 158.26 K (+101.8 % vs exp; not a MC result)
+
+== (8) 1x1x3 cell: J2 = 0.67913, J5 = -0.00158 meV (J5/J2 = -0.0023); X = J1+4J4+J6 = 0.12842; with J1, J4 of the 8-config set at U_LR:
+   J6 = 0.00700 meV (k-meshes 6x6x9 and 6x6x8 combined); change of J_eff = -2 J6 = -0.0140 meV

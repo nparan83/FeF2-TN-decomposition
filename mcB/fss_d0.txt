@@ -1,0 +1,4 @@
+# fef2_fss.py  model=heis  nu=0.7112  window 0.500-0.655  files=mcB_d0.dat
+# set             model  sizes          Tc(K)   stat   syst  total chi2/f    n     U*    Tc(2L) flags
+dft_U4.51_D0      heis   16/24/32      59.609  0.073  0.073  0.104   0.32    9  0.628         - 
+neutron_D0        heis   16/24/32      43.281  0.038  0.012  0.040   0.65   10  0.621         - 

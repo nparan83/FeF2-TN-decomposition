@@ -1,0 +1,4 @@
+# fef2_fss.py  model=bc  nu=0.6300  window 0.150-0.600  files=../fef2_mcfine.dat mcB_focus.dat
+# set             model  sizes          Tc(K)   stat   syst  total chi2/f    n     U*    Tc(2L) flags
+neutron           bc     16/24         82.306  0.025  0.045  0.051   2.22   18  0.482    82.306 
+dft_U4.51_B14     bc     16/24        110.534  0.029  0.027  0.040   2.09   19  0.461   110.534 
