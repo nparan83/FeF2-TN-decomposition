@@ -1,7 +1,0 @@
-3aae7d694bd1d6fc85ed814301f6b8c9  fef2_setup.sh
-c0844a2d910603f3bd70bccfcea533a5  fef2_run.sh
-5eaf5be30a3554e384b109353e0e0890  fef2_s0.sh
-c9a61dff1d80eb687fcb5a7a77be526e  fef2_prod.sh
-94a820dab5d2a94d2730ac0db83ca93a  fef2_gen.py
-5703554b3698616fd273d3857c9b78db  fef2_fit.py
-99c11d8635fb7fa04efff2108d9c735d  fef2_conv.py
