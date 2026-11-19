@@ -1,5 +1,7 @@
 # FeF2-TN-decomposition
 
+[![DOI](https://zenodo.org/badge/1456473878.svg)](https://doi.org/10.5281/zenodo.24361610)
+
 Data and code for
 
 > N. Paran, *Separating the errors of a first-principles Néel temperature: DFT+U exchange, effective-field theory and Monte Carlo for FeF₂*, submitted to Journal of Physics and Chemistry of Solids.
@@ -70,6 +72,10 @@ cd mcB && python3 fef2_tabB.py          # reproduces mcB/tabB.txt
 ```
 
 `fef2_tabB.py` needs the extracted `calc/` archives only for its sections 7–8 (control calculations); sections 1–6 run from `mcB/` alone.
+
+## How to cite
+
+Data set (Zenodo): N. Paran, *Data and code for: Separating the errors of a first-principles Néel temperature: DFT+U exchange, effective-field theory and Monte Carlo for FeF2*, Zenodo, https://doi.org/10.5281/zenodo.24361610 (all versions); v1.0.0, the version submitted with the article: https://doi.org/10.5281/zenodo.24361611.
 
 ## License
 
