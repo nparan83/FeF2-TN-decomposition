@@ -1,0 +1,14 @@
+{
+  "title": "Data and code for: Separating the errors of a first-principles Néel temperature: DFT+U exchange, effective-field theory and Monte Carlo for FeF2",
+  "upload_type": "dataset",
+  "description": "Quantum ESPRESSO inputs and outputs (calc/), exchange-constant fits, effective-field-theory results, raw Monte Carlo data and finite-size-scaling analysis (data/, mcB/, mcDC/), and the scripts that produce every table and figure (scripts/, figures/) for N. Paran, Journal of Physics and Chemistry of Solids (submitted, 2026). README.md maps every table and figure to its data file and script.",
+  "creators": [
+    {
+      "name": "Paran, Nejdet",
+      "affiliation": "Erciyes University, Faculty of Science, Department of Physics, Kayseri, Türkiye",
+      "orcid": "0000-0003-0317-0438"
+    }
+  ],
+  "license": "mit",
+  "keywords": ["FeF2", "Néel temperature", "DFT+U", "linear-response U", "effective-field theory", "Monte Carlo", "Blume-Capel model", "Quantum ESPRESSO"]
+}
