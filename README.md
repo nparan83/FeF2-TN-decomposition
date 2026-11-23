@@ -4,7 +4,7 @@
 
 Data and code for
 
-> N. Paran, *Separating the errors of a first-principles Néel temperature: DFT+U exchange, effective-field theory and Monte Carlo for FeF₂*, submitted to Physica B: Condensed Matter.
+> N. Paran, *Separating the errors of a first-principles Néel temperature: DFT+U exchange, effective-field theory and Monte Carlo for FeF₂*, submitted to Computational Materials Science.
 
 Every number in the tables and figures of the article is produced from the files in this repository by the scripts listed below. The DFT calculations were run with Quantum ESPRESSO 7.2 on the TRUBA cluster (TÜBİTAK ULAKBİM); the Monte Carlo and EFT codes need only Python 3 with NumPy, and the figure scripts also need Matplotlib.
 
